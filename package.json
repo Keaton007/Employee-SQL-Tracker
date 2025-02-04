@@ -1,0 +1,19 @@
+{
+  "name": "employee-sql-tracker",
+  "version": "1.0.0",
+  "description": "Make updates and changes to an employee directory from the terminal and have it saved to a database.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.4.1",
+    "pg": "^8.13.1"
+  }
+}
